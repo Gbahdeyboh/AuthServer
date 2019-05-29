@@ -4,7 +4,11 @@ const Respond = require('../services/responses');
 module.exports = (req, res, next) => {
 	usersModel.find({_id: req.params.id})
 	.then(data => {
-		req.user = data[0];
+		let user = data[0];
+		user = Object.assign({}, user);
+		user = user._doc;
+		delete user.password;
+		req.user = user;
 		next();
 	})
 	.catch(err => {

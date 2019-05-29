@@ -16,7 +16,16 @@ app.get('/users/:id', findUser, (req, res, next) => {
 
 app.get('/users', (req, res, next) => {
 	usersModel.find()
-	.then(ress => res.send(ress))
+	.then(ress => {
+		ress = ress.map(re => {
+			re = Object.assign({}, re)._doc;
+			delete re.password
+			return re;
+		});
+		Respond(res).success({
+			data: ress
+		})
+	})
 	.catch(err => res.send(err));
 });
 
