@@ -4,7 +4,11 @@
 */
 
 const redis = require('redis');
-const client = redis.createClient();
+const client = redis.createClient({
+          host : 'localhost',  
+          no_ready_check: true,
+          // auth_pass: 'Debo4real'                                                                                                                                                           
+});
 
 function Session(redisClient){
 
