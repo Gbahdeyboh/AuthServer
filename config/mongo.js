@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-const url = app.get('env') == "production" ? true/*To be updated later*/ : "mongodb://localhost:27017/AuthServer" /*MLab url here */ ;
+// const url = app.get('env') == "production" ? true/*To be updated later*/ : "mongodb://localhost:27017/AuthServer" /*MLab url here */ ;
+
+const url = "mongodb+srv://Gbahdeyboh:Bello4real@authserver-qd6te.gcp.mongodb.net/test?retryWrites=true";
 
 console.log("Environment is ", app.get('env'));
 
