@@ -5,9 +5,10 @@
 
 const redis = require('redis');
 const client = redis.createClient({
-          host : 'localhost',  
+          host : 'redis-11192.c99.us-east-1-4.ec2.cloud.redislabs.com',  
           no_ready_check: true,
-          // auth_pass: 'Debo4real'                                                                                                                                                           
+          auth_pass: 'Debo4real',
+          port: 11192                                                                                        
 });
 
 function Session(redisClient){
