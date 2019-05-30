@@ -171,3 +171,7 @@ Mr Alamu being a doubting thomas, went back to the url https://auth-server-24210
 # Finally, Mr Alamu Obo Langido is pleased!!!!  We are happy at AuthServer!!!
 
 ![celebration](https://media.giphy.com/media/m8crpzTJFRDPhqqhXJ/giphy.gif)
+
+
+
+<center>...<center>
