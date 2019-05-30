@@ -17,7 +17,7 @@ Before we proceed, i would love us to create an imaginary person (Mr Alamu). Mr 
 }
 ```
 
-<table><tr><td width="75%" style="float: left; font-size: 2em;">Mr Alamu wishes to create an account on our platform but does not want to write code yet, Mr Alamu wants to make sure our Endpoints work as we say it does before getting his hands dirty with code. <br /><br />But how is this possible?</td><td width="25%"><img src="https://media.giphy.com/media/xUPGcmF2iGsTGEFVL2/giphy.gif" width="350" height="250"/></td></tr></table>
+<table><tr><td width="65%" style="float: left; font-size: 2em;">Mr Alamu wishes to create an account on our platform but does not want to write code yet, Mr Alamu wants to make sure our Endpoints work as we say it does before getting his hands dirty with code. <br /><br />But how is this possible?</td><td width="35%"><img src="https://media.giphy.com/media/xUPGcmF2iGsTGEFVL2/giphy.gif" width="350" height="250"/></td></tr></table>
 
 ### POSTMAN to the Rescue! Yaaayy!!!
 
