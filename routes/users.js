@@ -31,8 +31,10 @@ app.get('/users', (req, res, next) => {
 
 //Update a user detail
 app.put('/users/update/:id', findUser, verifyToken, updateDetails, (req, res, next) => {
+	let data = Object.assign({}, req.user);
+	delete data.password;
 	Respond(res).success({
-		data: req.user,
+		data,
 		message: "User information was successfully updated"
 	})
 });
