@@ -1,6 +1,6 @@
 # <center> A Basic Auth Server </center>
 
-![welcome gif](https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif)
+<center>![welcome gif](https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif)</center>
 
 ## Introduction
 
@@ -156,7 +156,7 @@ Mr Alamu copies a users ID from the list of users he got and pasted the URL in a
 
 So this is getting fraustrating, Mr Alamu freaking craves for more!!! What exactly does he want gaaan?
 
-![tired](https://media.giphy.com/media/RBeddeaQ5Xo0E/giphy.gif)
+<center>![tired](https://media.giphy.com/media/RBeddeaQ5Xo0E/giphy.gif)</center>
 
 He wants to be able to delete his account when we fuck things up, he wants to be able to stop being a customer on our platform at will whenever he desires. We don't want his wahala so we built him yet another APi endpoint https://auth-server-242103.appspot.com/api/v1/users/delete/<id> 
     
@@ -170,7 +170,7 @@ Mr Alamu being a doubting thomas, went back to the url https://auth-server-24210
 
 # Finally, Mr Alamu Obo Langido is pleased!!!!  We are happy at AuthServer!!!
 
-![celebration](https://media.giphy.com/media/3o7abIileRivlGr8Nq/giphy.gif)
+<center>![celebration](https://media.giphy.com/media/3o7abIileRivlGr8Nq/giphy.gif)</center>
 
 
 
