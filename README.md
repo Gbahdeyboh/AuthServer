@@ -139,7 +139,7 @@ Mr Alamu again got a pretty looking `JSON` response with a message "User informa
 
 ![dataUpdate](https://firebasestorage.googleapis.com/v0/b/ai6-portfolio-abeokuta.appspot.com/o/dataUpdate.png?alt=media&token=f9e8eb8b-ccde-460a-bbc2-9cd2bacaadf4)
 
-#### **NB:** GET request's should only be tested in the browser and not on POSTMAN
+### **NB:** GET request's should only be tested in the browser and not on POSTMAN, if you want to test on POSTMAN, make sure you delete the request body before sending the request. Request's body on `GET` requests are not supported on `GCP` 
 
 Mr Alamu is curious and would love to know what kind of customers we have, he is still not satisfied, he wants to be able to view all other users of the platform so he can interact with them. since we have provided an endpoint to view all users. Mr Alamu heads straight to the browser to type in our endpoint so he can see a list of users already registered with us. Mr Alamu types in the endpoint https://auth-server-242103.appspot.com/api/v1/users/
 
